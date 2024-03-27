@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.owasp.webgoat.XXEIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.714 s <<< FAILURE! - in org.owasp.webgoat.XXEIntegrationTest
+xxeSecure  Time elapsed: 0.779 s  <<< ERROR!
+java.net.SocketException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at org.owasp.webgoat.XXEIntegrationTest.xxeSecure(XXEIntegrationTest.java:48)
+
+runTests  Time elapsed: 0.933 s  <<< ERROR!
+java.net.SocketException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at org.owasp.webgoat.XXEIntegrationTest.runTests(XXEIntegrationTest.java:117)
+
